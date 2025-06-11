@@ -1,0 +1,57 @@
+body {
+    font-size: 20px; /* Aumentei o tamanho das letras */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4B0082, #8A2BE2, #D8BFD8);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(75, 0, 130, 0.8);
+    padding: 20px;
+    font-size: 28px; /* Aumentei o tamanho do título principal */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.destino {
+    background: white;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    color: black;
+}
+
+.destino h2 {
+    font-size: 26px; /* Aumentei os títulos das seções */
+}
+
+.destino p {
+    font-size: 22px; /* Aumentei o texto dos parágrafos */
+}
+
+.video-container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
